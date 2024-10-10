@@ -1,0 +1,42 @@
+package:
+  name: uri
+  publish:
+    license: Apache-2.0
+    version: 9.0.0
+    location:
+      githubOwner: purescript-contrib
+      githubRepo: purescript-uri
+  dependencies:
+    - arrays
+    - bifunctors
+    - control
+    - either
+    - foldable-traversable
+    - gen
+    - integers
+    - js-uri
+    - lists
+    - maybe
+    - newtype
+    - parsing
+    - partial
+    - prelude
+    - profunctor-lenses
+    - strings
+    - tailrec
+    - these
+    - transformers
+    - tuples
+  test:
+    main: Test.Main
+    dependencies:
+      - aff
+      - assert
+      - console
+      - effect
+      - exceptions
+      - quickcheck
+workspace:
+  extraPackages: {}
+  packageSet:
+    registry: 60.4.0
