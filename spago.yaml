@@ -3,7 +3,7 @@ package:
   description: A type-safe parser, printer, and ADT for URLs and URIs.
   publish:
     license: Apache-2.0
-    version: 9.0.0
+    version: 10.0.0
     location:
       githubOwner: purescript-contrib
       githubRepo: purescript-uri
